@@ -57,7 +57,11 @@ for SEX in Mand Kvinde; do
     done
 done
 
+echo "Generating graphs"
 export TITLE="Percentiler for $DESIGNATION fordelt på køn og alder"
 export YLABEL="$DESIGNATION"
-gnuplot indkomst.gp
+for GP in `ls *.gp`; do
+    echo "- $GP"
+    gnuplot $GP
+done
 echo "Finished. Please view indkomst.png"
