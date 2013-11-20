@@ -19,17 +19,17 @@ Requirements
 Usage
 -----
 
-- Download the data from http://skat.dk/opengovcamp/ and unpack them.
-- Rename "YYYYMMDD OpenGovCamp.csv" to simply "OpenGovCamp.csv".
+- Download the data from http://skat.dk/opengovcamp/ and unpack them
+- Rename "YYYYMMDD OpenGovCamp.csv" to simply "OpenGovCamp.csv"
 - Execute ./indkomst.sh
-- View indkomst.png
+- View the generated PNGs
 
 Rendered graphs
 ---------------
 Data collected for 2012 by SKAT (http://skat.dk/opengovcamp/).
 
 
-![Graph rendered 20131119](indkomst_20131119.png)
+![Graph rendered 20131119](renders/indkomst.png)
 
 Observations
 ------------
@@ -37,10 +37,15 @@ Observations
 - At the high end of the pay grades (the 95% percentile), the gap between Mand (male) and Kvinde (female) is quite a lot larger than the rest of the percentiles.
 - At the low end (the 25% percentile), the gap is relatively small.
 
+
+![Median and means rendered 20131120](renders/median_middelvaerdi.png)
+
+![Median and means difference rendered 20131120](renders/median_middelvaerdi_forskel.png)
+
+
 To investigate
 --------------
 - The gaps widen around the 30 years mark. It would be interesting to see if this age point is stable when looking at statistics collected from earlier years or if it moves to the right as the calendar year gets higher. In other words: Is the income difference between the sexes getting smaller over time?
-- Create a graph visualizing the difference between the median and the arithmetic mean (aka average), thus examining whether the choice of median vs. mean has a high impact on perceived income inequality.
 
 Note
 ----
