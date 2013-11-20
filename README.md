@@ -37,6 +37,13 @@ Observations
 - At the high end of the pay grades (the 95% percentile), the gap between Mand (male) and Kvinde (female) is quite a lot larger than the rest of the percentiles.
 - At the low end (the 25% percentile), the gap is relatively small.
 
+Income gap
+----------
+
+![Income difference in percent rendered 20131120](renders/indkomst_forskel.png)
+
+There's quite the difference between median and mean here. If we look at the mean, we confirm the prevalent assumption that an average a male's income is higher than an average female's over the whole life. If we look at the median, we see that males at age 24 and below has a lower income than females. There's quite a steep jump in the median around 26-28 years of age - maybe because that is the time when most people have their first kid?
+
 
 Median vs. mean
 ---------------

@@ -56,6 +56,7 @@ for SEX in Mand Kvinde; do
         rm $VALUES
     done
 done
+paste -d\  Kvinde.dat Mand.dat > KvindeMand.dat
 
 echo "Generating graphs"
 export TITLE="Percentiler for $DESIGNATION fordelt på køn og alder"

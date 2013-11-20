@@ -1,6 +1,5 @@
 *.png
-Mand.dat
-Kvinde.dat
+*.dat
 *.zip
 *.pdf
 *.csv
