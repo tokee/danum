@@ -38,9 +38,15 @@ Observations
 - At the low end (the 25% percentile), the gap is relatively small.
 
 
+Median vs. mean
+---------------
+
 ![Median and means rendered 20131120](renders/median_middelvaerdi.png)
 
 ![Median and means difference rendered 20131120](renders/median_middelvaerdi_forskel.png)
+
+- The median is lower than the mean (aka average) for nearly the full range of ages for both males and females. That tells us that in general, there are a few people that has very high income.
+- For males, the difference of median and mean is even greater than for females. This confirms the 95 percentile from the first graph: The few people with very high income are males.
 
 
 To investigate
